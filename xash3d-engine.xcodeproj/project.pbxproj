@@ -10,6 +10,40 @@
 		1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		4903182C1E8E9EEA00AA2AE2 /* identification.c in Sources */ = {isa = PBXBuildFile; fileRef = 4903182A1E8E9EEA00AA2AE2 /* identification.c */; };
+		4903182D1E8E9EEA00AA2AE2 /* Sequence.c in Sources */ = {isa = PBXBuildFile; fileRef = 4903182B1E8E9EEA00AA2AE2 /* Sequence.c */; };
+		4943D24A1E4DB28800FA3F36 /* client_aom in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2281E4DB28700FA3F36 /* client_aom */; };
+		4943D24B1E4DB28800FA3F36 /* client_biglolly in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2291E4DB28700FA3F36 /* client_biglolly */; };
+		4943D24C1E4DB28800FA3F36 /* client_blackops in Resources */ = {isa = PBXBuildFile; fileRef = 4943D22A1E4DB28700FA3F36 /* client_blackops */; };
+		4943D24D1E4DB28800FA3F36 /* client_bshift in Resources */ = {isa = PBXBuildFile; fileRef = 4943D22B1E4DB28700FA3F36 /* client_bshift */; };
+		4943D24E1E4DB28800FA3F36 /* client_eftd in Resources */ = {isa = PBXBuildFile; fileRef = 4943D22D1E4DB28700FA3F36 /* client_eftd */; };
+		4943D24F1E4DB28800FA3F36 /* client_hunger in Resources */ = {isa = PBXBuildFile; fileRef = 4943D22E1E4DB28800FA3F36 /* client_hunger */; };
+		4943D2501E4DB28800FA3F36 /* client_id1 in Resources */ = {isa = PBXBuildFile; fileRef = 4943D22F1E4DB28800FA3F36 /* client_id1 */; };
+		4943D2511E4DB28800FA3F36 /* client_noffice in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2301E4DB28800FA3F36 /* client_noffice */; };
+		4943D2521E4DB28800FA3F36 /* client_poke646 in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2311E4DB28800FA3F36 /* client_poke646 */; };
+		4943D2531E4DB28800FA3F36 /* client_sohl in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2321E4DB28800FA3F36 /* client_sohl */; };
+		4943D2541E4DB28800FA3F36 /* client_thegate in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2331E4DB28800FA3F36 /* client_thegate */; };
+		4943D2551E4DB28800FA3F36 /* client_tot in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2341E4DB28800FA3F36 /* client_tot */; };
+		4943D2561E4DB28800FA3F36 /* client_vendetta in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2351E4DB28800FA3F36 /* client_vendetta */; };
+		4943D2571E4DB28800FA3F36 /* client_visitors in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2361E4DB28800FA3F36 /* client_visitors */; };
+		4943D2581E4DB28800FA3F36 /* client_xenwar in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2371E4DB28800FA3F36 /* client_xenwar */; };
+		4943D2591E4DB28800FA3F36 /* menu_id1 in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2381E4DB28800FA3F36 /* menu_id1 */; };
+		4943D25A1E4DB28800FA3F36 /* server_aom in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2391E4DB28800FA3F36 /* server_aom */; };
+		4943D25B1E4DB28800FA3F36 /* server_biglolly in Resources */ = {isa = PBXBuildFile; fileRef = 4943D23A1E4DB28800FA3F36 /* server_biglolly */; };
+		4943D25C1E4DB28800FA3F36 /* server_blackops in Resources */ = {isa = PBXBuildFile; fileRef = 4943D23B1E4DB28800FA3F36 /* server_blackops */; };
+		4943D25D1E4DB28800FA3F36 /* server_bshift in Resources */ = {isa = PBXBuildFile; fileRef = 4943D23C1E4DB28800FA3F36 /* server_bshift */; };
+		4943D25E1E4DB28800FA3F36 /* server_eftd in Resources */ = {isa = PBXBuildFile; fileRef = 4943D23E1E4DB28800FA3F36 /* server_eftd */; };
+		4943D25F1E4DB28800FA3F36 /* server_gravgun in Resources */ = {isa = PBXBuildFile; fileRef = 4943D23F1E4DB28800FA3F36 /* server_gravgun */; };
+		4943D2601E4DB28800FA3F36 /* server_hunger in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2401E4DB28800FA3F36 /* server_hunger */; };
+		4943D2611E4DB28800FA3F36 /* server_id1 in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2411E4DB28800FA3F36 /* server_id1 */; };
+		4943D2621E4DB28800FA3F36 /* server_noffice in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2421E4DB28800FA3F36 /* server_noffice */; };
+		4943D2631E4DB28800FA3F36 /* server_poke646 in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2431E4DB28800FA3F36 /* server_poke646 */; };
+		4943D2641E4DB28800FA3F36 /* server_sohl in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2441E4DB28800FA3F36 /* server_sohl */; };
+		4943D2651E4DB28800FA3F36 /* server_thegate in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2451E4DB28800FA3F36 /* server_thegate */; };
+		4943D2661E4DB28800FA3F36 /* server_tot in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2461E4DB28800FA3F36 /* server_tot */; };
+		4943D2671E4DB28800FA3F36 /* server_vendetta in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2471E4DB28800FA3F36 /* server_vendetta */; };
+		4943D2681E4DB28800FA3F36 /* server_visitors in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2481E4DB28800FA3F36 /* server_visitors */; };
+		4943D2691E4DB28800FA3F36 /* server_xenwar in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2491E4DB28800FA3F36 /* server_xenwar */; };
 		495E1A1A1E13199A0022E4AA /* launchdialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E1A191E13199A0022E4AA /* launchdialog.m */; };
 		4981975E1E15858D004ED6F3 /* client in Frameworks */ = {isa = PBXBuildFile; fileRef = 4981975B1E15858D004ED6F3 /* client */; };
 		4981975F1E15858D004ED6F3 /* menu in Frameworks */ = {isa = PBXBuildFile; fileRef = 4981975C1E15858D004ED6F3 /* menu */; };
@@ -208,6 +242,8 @@
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* xash3d-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xash3d-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4903182A1E8E9EEA00AA2AE2 /* identification.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = identification.c; path = ../../../xash3d/engine/common/identification.c; sourceTree = "<group>"; };
+		4903182B1E8E9EEA00AA2AE2 /* Sequence.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Sequence.c; path = ../../../xash3d/engine/common/Sequence.c; sourceTree = "<group>"; };
 		494333491E10211F00F9543C /* backends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backends.h; sourceTree = "<group>"; };
 		4943334A1E10211F00F9543C /* beamdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beamdef.h; sourceTree = "<group>"; };
 		4943334B1E10211F00F9543C /* bspfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bspfile.h; sourceTree = "<group>"; };
@@ -249,6 +285,40 @@
 		4943336F1E10211F00F9543C /* wadfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wadfile.h; sourceTree = "<group>"; };
 		494333701E10211F00F9543C /* weaponinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weaponinfo.h; sourceTree = "<group>"; };
 		494333711E10211F00F9543C /* wrect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wrect.h; sourceTree = "<group>"; };
+		4943D2281E4DB28700FA3F36 /* client_aom */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_aom; sourceTree = "<group>"; };
+		4943D2291E4DB28700FA3F36 /* client_biglolly */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_biglolly; sourceTree = "<group>"; };
+		4943D22A1E4DB28700FA3F36 /* client_blackops */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_blackops; sourceTree = "<group>"; };
+		4943D22B1E4DB28700FA3F36 /* client_bshift */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_bshift; sourceTree = "<group>"; };
+		4943D22C1E4DB28700FA3F36 /* client_cstrike */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_cstrike; sourceTree = "<group>"; };
+		4943D22D1E4DB28700FA3F36 /* client_eftd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_eftd; sourceTree = "<group>"; };
+		4943D22E1E4DB28800FA3F36 /* client_hunger */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_hunger; sourceTree = "<group>"; };
+		4943D22F1E4DB28800FA3F36 /* client_id1 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_id1; sourceTree = "<group>"; };
+		4943D2301E4DB28800FA3F36 /* client_noffice */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_noffice; sourceTree = "<group>"; };
+		4943D2311E4DB28800FA3F36 /* client_poke646 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_poke646; sourceTree = "<group>"; };
+		4943D2321E4DB28800FA3F36 /* client_sohl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_sohl; sourceTree = "<group>"; };
+		4943D2331E4DB28800FA3F36 /* client_thegate */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_thegate; sourceTree = "<group>"; };
+		4943D2341E4DB28800FA3F36 /* client_tot */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_tot; sourceTree = "<group>"; };
+		4943D2351E4DB28800FA3F36 /* client_vendetta */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_vendetta; sourceTree = "<group>"; };
+		4943D2361E4DB28800FA3F36 /* client_visitors */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_visitors; sourceTree = "<group>"; };
+		4943D2371E4DB28800FA3F36 /* client_xenwar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_xenwar; sourceTree = "<group>"; };
+		4943D2381E4DB28800FA3F36 /* menu_id1 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = menu_id1; sourceTree = "<group>"; };
+		4943D2391E4DB28800FA3F36 /* server_aom */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_aom; sourceTree = "<group>"; };
+		4943D23A1E4DB28800FA3F36 /* server_biglolly */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_biglolly; sourceTree = "<group>"; };
+		4943D23B1E4DB28800FA3F36 /* server_blackops */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_blackops; sourceTree = "<group>"; };
+		4943D23C1E4DB28800FA3F36 /* server_bshift */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_bshift; sourceTree = "<group>"; };
+		4943D23D1E4DB28800FA3F36 /* server_cstrike */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_cstrike; sourceTree = "<group>"; };
+		4943D23E1E4DB28800FA3F36 /* server_eftd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_eftd; sourceTree = "<group>"; };
+		4943D23F1E4DB28800FA3F36 /* server_gravgun */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_gravgun; sourceTree = "<group>"; };
+		4943D2401E4DB28800FA3F36 /* server_hunger */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_hunger; sourceTree = "<group>"; };
+		4943D2411E4DB28800FA3F36 /* server_id1 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_id1; sourceTree = "<group>"; };
+		4943D2421E4DB28800FA3F36 /* server_noffice */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_noffice; sourceTree = "<group>"; };
+		4943D2431E4DB28800FA3F36 /* server_poke646 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_poke646; sourceTree = "<group>"; };
+		4943D2441E4DB28800FA3F36 /* server_sohl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_sohl; sourceTree = "<group>"; };
+		4943D2451E4DB28800FA3F36 /* server_thegate */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_thegate; sourceTree = "<group>"; };
+		4943D2461E4DB28800FA3F36 /* server_tot */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_tot; sourceTree = "<group>"; };
+		4943D2471E4DB28800FA3F36 /* server_vendetta */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_vendetta; sourceTree = "<group>"; };
+		4943D2481E4DB28800FA3F36 /* server_visitors */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_visitors; sourceTree = "<group>"; };
+		4943D2491E4DB28800FA3F36 /* server_xenwar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_xenwar; sourceTree = "<group>"; };
 		495E1A191E13199A0022E4AA /* launchdialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = launchdialog.m; sourceTree = "<group>"; };
 		4981975B1E15858D004ED6F3 /* client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o"; path = client; sourceTree = "<group>"; };
 		4981975C1E15858D004ED6F3 /* menu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o"; path = menu; sourceTree = "<group>"; };
@@ -524,6 +594,42 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				4903182A1E8E9EEA00AA2AE2 /* identification.c */,
+				4903182B1E8E9EEA00AA2AE2 /* Sequence.c */,
+				4943D2281E4DB28700FA3F36 /* client_aom */,
+				4943D2291E4DB28700FA3F36 /* client_biglolly */,
+				4943D22A1E4DB28700FA3F36 /* client_blackops */,
+				4943D22B1E4DB28700FA3F36 /* client_bshift */,
+				4943D22C1E4DB28700FA3F36 /* client_cstrike */,
+				4943D22D1E4DB28700FA3F36 /* client_eftd */,
+				4943D22E1E4DB28800FA3F36 /* client_hunger */,
+				4943D22F1E4DB28800FA3F36 /* client_id1 */,
+				4943D2301E4DB28800FA3F36 /* client_noffice */,
+				4943D2311E4DB28800FA3F36 /* client_poke646 */,
+				4943D2321E4DB28800FA3F36 /* client_sohl */,
+				4943D2331E4DB28800FA3F36 /* client_thegate */,
+				4943D2341E4DB28800FA3F36 /* client_tot */,
+				4943D2351E4DB28800FA3F36 /* client_vendetta */,
+				4943D2361E4DB28800FA3F36 /* client_visitors */,
+				4943D2371E4DB28800FA3F36 /* client_xenwar */,
+				4943D2381E4DB28800FA3F36 /* menu_id1 */,
+				4943D2391E4DB28800FA3F36 /* server_aom */,
+				4943D23A1E4DB28800FA3F36 /* server_biglolly */,
+				4943D23B1E4DB28800FA3F36 /* server_blackops */,
+				4943D23C1E4DB28800FA3F36 /* server_bshift */,
+				4943D23D1E4DB28800FA3F36 /* server_cstrike */,
+				4943D23E1E4DB28800FA3F36 /* server_eftd */,
+				4943D23F1E4DB28800FA3F36 /* server_gravgun */,
+				4943D2401E4DB28800FA3F36 /* server_hunger */,
+				4943D2411E4DB28800FA3F36 /* server_id1 */,
+				4943D2421E4DB28800FA3F36 /* server_noffice */,
+				4943D2431E4DB28800FA3F36 /* server_poke646 */,
+				4943D2441E4DB28800FA3F36 /* server_sohl */,
+				4943D2451E4DB28800FA3F36 /* server_thegate */,
+				4943D2461E4DB28800FA3F36 /* server_tot */,
+				4943D2471E4DB28800FA3F36 /* server_vendetta */,
+				4943D2481E4DB28800FA3F36 /* server_visitors */,
+				4943D2491E4DB28800FA3F36 /* server_xenwar */,
 				49CF01B81E100AEF00CF7A9B /* eglwrap.cpp */,
 				49CF01B91E100AF000CF7A9B /* nanogl.cpp */,
 				49CF01BA1E100AF000CF7A9B /* nanoWrap.cpp */,
@@ -1036,10 +1142,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4943D24A1E4DB28800FA3F36 /* client_aom in Resources */,
+				4943D24B1E4DB28800FA3F36 /* client_biglolly in Resources */,
+				4943D24C1E4DB28800FA3F36 /* client_blackops in Resources */,
+				4943D24D1E4DB28800FA3F36 /* client_bshift in Resources */,
 				4981976B1E161C55004ED6F3 /* client_cstrike in Resources */,
+				4943D24E1E4DB28800FA3F36 /* client_eftd in Resources */,
+				4943D24F1E4DB28800FA3F36 /* client_hunger in Resources */,
+				4943D2501E4DB28800FA3F36 /* client_id1 in Resources */,
+				4943D2511E4DB28800FA3F36 /* client_noffice in Resources */,
+				4943D2521E4DB28800FA3F36 /* client_poke646 in Resources */,
+				4943D2531E4DB28800FA3F36 /* client_sohl in Resources */,
+				4943D2541E4DB28800FA3F36 /* client_thegate in Resources */,
+				4943D2551E4DB28800FA3F36 /* client_tot in Resources */,
+				4943D2561E4DB28800FA3F36 /* client_vendetta in Resources */,
+				4943D2571E4DB28800FA3F36 /* client_visitors in Resources */,
+				4943D2581E4DB28800FA3F36 /* client_xenwar in Resources */,
+				4943D2591E4DB28800FA3F36 /* menu_id1 in Resources */,
+				4943D25A1E4DB28800FA3F36 /* server_aom in Resources */,
+				4943D25B1E4DB28800FA3F36 /* server_biglolly in Resources */,
+				4943D25C1E4DB28800FA3F36 /* server_blackops in Resources */,
+				4943D25D1E4DB28800FA3F36 /* server_bshift in Resources */,
+				498197751E17C4D6004ED6F3 /* server_cstrike in Resources */,
+				4943D25E1E4DB28800FA3F36 /* server_eftd in Resources */,
+				4943D25F1E4DB28800FA3F36 /* server_gravgun in Resources */,
+				4943D2601E4DB28800FA3F36 /* server_hunger in Resources */,
+				4943D2611E4DB28800FA3F36 /* server_id1 in Resources */,
+				4943D2621E4DB28800FA3F36 /* server_noffice in Resources */,
+				4943D2631E4DB28800FA3F36 /* server_poke646 in Resources */,
+				4943D2641E4DB28800FA3F36 /* server_sohl in Resources */,
+				4943D2651E4DB28800FA3F36 /* server_thegate in Resources */,
+				4943D2661E4DB28800FA3F36 /* server_tot in Resources */,
+				4943D2671E4DB28800FA3F36 /* server_vendetta in Resources */,
+				4943D2681E4DB28800FA3F36 /* server_visitors in Resources */,
+				4943D2691E4DB28800FA3F36 /* server_xenwar in Resources */,
 				498197711E17BB65004ED6F3 /* extras_cstrike.pak in Resources */,
 				4981976C1E161C55004ED6F3 /* menu_cstrike in Resources */,
-				498197751E17C4D6004ED6F3 /* server_cstrike in Resources */,
 				498197631E15881C004ED6F3 /* menu in Resources */,
 				498197641E15881C004ED6F3 /* server in Resources */,
 				498197621E15880F004ED6F3 /* client in Resources */,
@@ -1061,6 +1199,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4903182C1E8E9EEA00AA2AE2 /* identification.c in Sources */,
+				4903182D1E8E9EEA00AA2AE2 /* Sequence.c in Sources */,
 				49CF01A21E10063D00CF7A9B /* snd_opensles.c in Sources */,
 				49CF01B41E10063D00CF7A9B /* sv_save.c in Sources */,
 				49CF01711E10063D00CF7A9B /* host.c in Sources */,

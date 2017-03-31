@@ -240,3 +240,12 @@ void IOS_LaunchDialog( void )
 
 	[alert release];
 }
+
+char *IOS_GetUDID( void )
+{
+	static char udid[256];
+	NSString *id = [[[UIDevice currentDevice]identifierForVendor] UUIDString];
+	strncpy( udid, [id UTF8String], 255 );
+	[id release];
+	return udid;
+}
