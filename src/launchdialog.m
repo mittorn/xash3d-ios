@@ -99,6 +99,11 @@ typedef struct settings_s
 
 void IOS_LaunchDialog( void )
 {
+	NSLog(@"System Version is %@",[[UIDevice currentDevice] systemVersion]);
+	NSString *ver = [[UIDevice currentDevice] systemVersion];
+	float ver_float = [ver floatValue];
+	if( ver_float >= 7.0 )
+	{
 	int button = -1, bExit, bStart;
 	UIAlertView * alert = [[UIAlertView alloc] init];
 	bExit = [alert addButtonWithTitle:@"Exit"];
@@ -239,6 +244,29 @@ void IOS_LaunchDialog( void )
 	[suffixtitle release];
 
 	[alert release];
+	}
+	else // do not know what wrong with 6.x, just skip launch dialog
+	{
+		static char *args[32] = { "xash", "-dev", "5", "-log"};
+		
+		g_pszArgv = args;
+		g_iArgc = 3;
+		
+		char cmdlinefile[128];
+		snprintf(cmdlinefile, sizeof(cmdlinefile), "%s/cmdline.txt", IOS_GetDocsDir() );
+		FILE *f = fopen(cmdlinefile,"rb");
+		if( f )
+		{
+			static char args2[32][64];
+			g_iArgc = 1;
+			while(fscanf(f,"%64s",args2[g_iArgc-1]))
+			{
+				args[g_iArgc] = args2[g_iArgc-1];
+				g_iArgc++;
+			}
+
+		}
+	}
 }
 
 char *IOS_GetUDID( void )
@@ -248,4 +276,9 @@ char *IOS_GetUDID( void )
 	strncpy( udid, [id UTF8String], 255 );
 	[id release];
 	return udid;
+}
+
+void IOS_Log(const char *text)
+{
+	NSLog(@"Xash: %@\n	", [NSString stringWithUTF8String:text]);
 }

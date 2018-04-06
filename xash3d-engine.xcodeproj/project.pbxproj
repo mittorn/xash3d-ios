@@ -17,53 +17,13 @@
 		493A73352078090A00E0DE78 /* cl_netgraph.c in Sources */ = {isa = PBXBuildFile; fileRef = 493A73342078090A00E0DE78 /* cl_netgraph.c */; };
 		493A73372078092300E0DE78 /* masterlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 493A73362078092300E0DE78 /* masterlist.c */; };
 		493A73392078093B00E0DE78 /* sv_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 493A73382078093B00E0DE78 /* sv_filter.c */; };
-		4943D24A1E4DB28800FA3F36 /* client_aom in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2281E4DB28700FA3F36 /* client_aom */; };
-		4943D24B1E4DB28800FA3F36 /* client_biglolly in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2291E4DB28700FA3F36 /* client_biglolly */; };
-		4943D24C1E4DB28800FA3F36 /* client_blackops in Resources */ = {isa = PBXBuildFile; fileRef = 4943D22A1E4DB28700FA3F36 /* client_blackops */; };
-		4943D24D1E4DB28800FA3F36 /* client_bshift in Resources */ = {isa = PBXBuildFile; fileRef = 4943D22B1E4DB28700FA3F36 /* client_bshift */; };
-		4943D24E1E4DB28800FA3F36 /* client_eftd in Resources */ = {isa = PBXBuildFile; fileRef = 4943D22D1E4DB28700FA3F36 /* client_eftd */; };
-		4943D24F1E4DB28800FA3F36 /* client_hunger in Resources */ = {isa = PBXBuildFile; fileRef = 4943D22E1E4DB28800FA3F36 /* client_hunger */; };
-		4943D2501E4DB28800FA3F36 /* client_id1 in Resources */ = {isa = PBXBuildFile; fileRef = 4943D22F1E4DB28800FA3F36 /* client_id1 */; };
-		4943D2511E4DB28800FA3F36 /* client_noffice in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2301E4DB28800FA3F36 /* client_noffice */; };
-		4943D2521E4DB28800FA3F36 /* client_poke646 in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2311E4DB28800FA3F36 /* client_poke646 */; };
-		4943D2531E4DB28800FA3F36 /* client_sohl in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2321E4DB28800FA3F36 /* client_sohl */; };
-		4943D2541E4DB28800FA3F36 /* client_thegate in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2331E4DB28800FA3F36 /* client_thegate */; };
-		4943D2551E4DB28800FA3F36 /* client_tot in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2341E4DB28800FA3F36 /* client_tot */; };
-		4943D2561E4DB28800FA3F36 /* client_vendetta in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2351E4DB28800FA3F36 /* client_vendetta */; };
-		4943D2571E4DB28800FA3F36 /* client_visitors in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2361E4DB28800FA3F36 /* client_visitors */; };
-		4943D2581E4DB28800FA3F36 /* client_xenwar in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2371E4DB28800FA3F36 /* client_xenwar */; };
-		4943D2591E4DB28800FA3F36 /* menu_id1 in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2381E4DB28800FA3F36 /* menu_id1 */; };
-		4943D25A1E4DB28800FA3F36 /* server_aom in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2391E4DB28800FA3F36 /* server_aom */; };
-		4943D25B1E4DB28800FA3F36 /* server_biglolly in Resources */ = {isa = PBXBuildFile; fileRef = 4943D23A1E4DB28800FA3F36 /* server_biglolly */; };
-		4943D25C1E4DB28800FA3F36 /* server_blackops in Resources */ = {isa = PBXBuildFile; fileRef = 4943D23B1E4DB28800FA3F36 /* server_blackops */; };
-		4943D25D1E4DB28800FA3F36 /* server_bshift in Resources */ = {isa = PBXBuildFile; fileRef = 4943D23C1E4DB28800FA3F36 /* server_bshift */; };
-		4943D25E1E4DB28800FA3F36 /* server_eftd in Resources */ = {isa = PBXBuildFile; fileRef = 4943D23E1E4DB28800FA3F36 /* server_eftd */; };
-		4943D25F1E4DB28800FA3F36 /* server_gravgun in Resources */ = {isa = PBXBuildFile; fileRef = 4943D23F1E4DB28800FA3F36 /* server_gravgun */; };
-		4943D2601E4DB28800FA3F36 /* server_hunger in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2401E4DB28800FA3F36 /* server_hunger */; };
-		4943D2611E4DB28800FA3F36 /* server_id1 in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2411E4DB28800FA3F36 /* server_id1 */; };
-		4943D2621E4DB28800FA3F36 /* server_noffice in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2421E4DB28800FA3F36 /* server_noffice */; };
-		4943D2631E4DB28800FA3F36 /* server_poke646 in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2431E4DB28800FA3F36 /* server_poke646 */; };
-		4943D2641E4DB28800FA3F36 /* server_sohl in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2441E4DB28800FA3F36 /* server_sohl */; };
-		4943D2651E4DB28800FA3F36 /* server_thegate in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2451E4DB28800FA3F36 /* server_thegate */; };
-		4943D2661E4DB28800FA3F36 /* server_tot in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2461E4DB28800FA3F36 /* server_tot */; };
-		4943D2671E4DB28800FA3F36 /* server_vendetta in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2471E4DB28800FA3F36 /* server_vendetta */; };
-		4943D2681E4DB28800FA3F36 /* server_visitors in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2481E4DB28800FA3F36 /* server_visitors */; };
-		4943D2691E4DB28800FA3F36 /* server_xenwar in Resources */ = {isa = PBXBuildFile; fileRef = 4943D2491E4DB28800FA3F36 /* server_xenwar */; };
 		495E1A1A1E13199A0022E4AA /* launchdialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E1A191E13199A0022E4AA /* launchdialog.m */; };
-		4981975E1E15858D004ED6F3 /* client in Frameworks */ = {isa = PBXBuildFile; fileRef = 4981975B1E15858D004ED6F3 /* client */; };
 		4981975F1E15858D004ED6F3 /* menu in Frameworks */ = {isa = PBXBuildFile; fileRef = 4981975C1E15858D004ED6F3 /* menu */; };
-		498197601E15858D004ED6F3 /* server in Frameworks */ = {isa = PBXBuildFile; fileRef = 4981975D1E15858D004ED6F3 /* server */; };
 		498197621E15880F004ED6F3 /* client in Resources */ = {isa = PBXBuildFile; fileRef = 4981975B1E15858D004ED6F3 /* client */; };
 		498197631E15881C004ED6F3 /* menu in Resources */ = {isa = PBXBuildFile; fileRef = 4981975C1E15858D004ED6F3 /* menu */; };
 		498197641E15881C004ED6F3 /* server in Resources */ = {isa = PBXBuildFile; fileRef = 4981975D1E15858D004ED6F3 /* server */; };
 		498197661E158C0A004ED6F3 /* extras.pak in Resources */ = {isa = PBXBuildFile; fileRef = 498197651E158C0A004ED6F3 /* extras.pak */; };
-		498197691E161C20004ED6F3 /* client_cstrike in Frameworks */ = {isa = PBXBuildFile; fileRef = 498197671E161C20004ED6F3 /* client_cstrike */; };
-		4981976A1E161C20004ED6F3 /* menu_cstrike in Frameworks */ = {isa = PBXBuildFile; fileRef = 498197681E161C20004ED6F3 /* menu_cstrike */; };
-		4981976B1E161C55004ED6F3 /* client_cstrike in Resources */ = {isa = PBXBuildFile; fileRef = 498197671E161C20004ED6F3 /* client_cstrike */; };
-		4981976C1E161C55004ED6F3 /* menu_cstrike in Resources */ = {isa = PBXBuildFile; fileRef = 498197681E161C20004ED6F3 /* menu_cstrike */; };
 		498197711E17BB65004ED6F3 /* extras_cstrike.pak in Resources */ = {isa = PBXBuildFile; fileRef = 498197701E17BB65004ED6F3 /* extras_cstrike.pak */; };
-		498197731E17BEB6004ED6F3 /* server_cstrike in Frameworks */ = {isa = PBXBuildFile; fileRef = 498197721E17BEB6004ED6F3 /* server_cstrike */; };
-		498197751E17C4D6004ED6F3 /* server_cstrike in Resources */ = {isa = PBXBuildFile; fileRef = 498197721E17BEB6004ED6F3 /* server_cstrike */; };
 		498CCAAC1E155F1F00299D38 /* ftp_commands.plist in Resources */ = {isa = PBXBuildFile; fileRef = 498CCAAB1E155F1F00299D38 /* ftp_commands.plist */; };
 		498CCAB91E155F5D00299D38 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 498CCAB11E155F5D00299D38 /* AsyncSocket.m */; };
 		498CCABA1E155F5D00299D38 /* FtpConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 498CCAB31E155F5D00299D38 /* FtpConnection.m */; };
@@ -76,6 +36,7 @@
 		49BD69CD1E12FAC8004904A9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BD69CA1E12FAC8004904A9 /* Default@2x.png */; };
 		49BD69CE1E12FAC8004904A9 /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BD69CB1E12FAC8004904A9 /* Default@2x~ipad.png */; };
 		49BD69CF1E12FAC8004904A9 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BD69CC1E12FAC8004904A9 /* Default~ipad.png */; };
+		49C4D60720781DAB00855677 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE0E9691BAF96A00098DFA4 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		49CF01311E10063D00CF7A9B /* cl_cmds.c in Sources */ = {isa = PBXBuildFile; fileRef = 49CF00691E10063D00CF7A9B /* cl_cmds.c */; };
 		49CF01321E10063D00CF7A9B /* cl_demo.c in Sources */ = {isa = PBXBuildFile; fileRef = 49CF006A1E10063D00CF7A9B /* cl_demo.c */; };
 		49CF01331E10063D00CF7A9B /* cl_events.c in Sources */ = {isa = PBXBuildFile; fileRef = 49CF006B1E10063D00CF7A9B /* cl_events.c */; };
@@ -210,7 +171,6 @@
 		FA86C0371D9765BB009CB637 /* iOS Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA86C0361D9765BA009CB637 /* iOS Launch Screen.storyboard */; };
 		FA8B4BA31967070A00F8EB7C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8B4BA21967070A00F8EB7C /* CoreMotion.framework */; };
 		FABA34D41D8B5E5600915323 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA34D31D8B5E5600915323 /* AVFoundation.framework */; };
-		FAE0E96A1BAF96A00098DFA4 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE0E9691BAF96A00098DFA4 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FD1B48DD0E313255007AB34E /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1B489E0E313154007AB34E /* libSDL2.a */; };
 		FD787AA20E22A5CC003E8E36 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD787AA00E22A5CC003E8E36 /* Default.png */; };
 		FD925B1B0E0F276600E92347 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD925B180E0F276600E92347 /* Icon.png */; };
@@ -295,54 +255,16 @@
 		4943336A1E10211F00F9543C /* screenfade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = screenfade.h; sourceTree = "<group>"; };
 		4943336B1E10211F00F9543C /* studio_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studio_event.h; sourceTree = "<group>"; };
 		4943336C1E10211F00F9543C /* triangleapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triangleapi.h; sourceTree = "<group>"; };
-		4943336D1E10211F00F9543C /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
 		4943336E1E10211F00F9543C /* usercmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usercmd.h; sourceTree = "<group>"; };
 		4943336F1E10211F00F9543C /* wadfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wadfile.h; sourceTree = "<group>"; };
 		494333701E10211F00F9543C /* weaponinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weaponinfo.h; sourceTree = "<group>"; };
 		494333711E10211F00F9543C /* wrect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wrect.h; sourceTree = "<group>"; };
-		4943D2281E4DB28700FA3F36 /* client_aom */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_aom; sourceTree = "<group>"; };
-		4943D2291E4DB28700FA3F36 /* client_biglolly */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_biglolly; sourceTree = "<group>"; };
-		4943D22A1E4DB28700FA3F36 /* client_blackops */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_blackops; sourceTree = "<group>"; };
-		4943D22B1E4DB28700FA3F36 /* client_bshift */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_bshift; sourceTree = "<group>"; };
-		4943D22C1E4DB28700FA3F36 /* client_cstrike */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_cstrike; sourceTree = "<group>"; };
-		4943D22D1E4DB28700FA3F36 /* client_eftd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_eftd; sourceTree = "<group>"; };
-		4943D22E1E4DB28800FA3F36 /* client_hunger */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_hunger; sourceTree = "<group>"; };
-		4943D22F1E4DB28800FA3F36 /* client_id1 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_id1; sourceTree = "<group>"; };
-		4943D2301E4DB28800FA3F36 /* client_noffice */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_noffice; sourceTree = "<group>"; };
-		4943D2311E4DB28800FA3F36 /* client_poke646 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_poke646; sourceTree = "<group>"; };
-		4943D2321E4DB28800FA3F36 /* client_sohl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_sohl; sourceTree = "<group>"; };
-		4943D2331E4DB28800FA3F36 /* client_thegate */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_thegate; sourceTree = "<group>"; };
-		4943D2341E4DB28800FA3F36 /* client_tot */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_tot; sourceTree = "<group>"; };
-		4943D2351E4DB28800FA3F36 /* client_vendetta */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_vendetta; sourceTree = "<group>"; };
-		4943D2361E4DB28800FA3F36 /* client_visitors */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_visitors; sourceTree = "<group>"; };
-		4943D2371E4DB28800FA3F36 /* client_xenwar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = client_xenwar; sourceTree = "<group>"; };
-		4943D2381E4DB28800FA3F36 /* menu_id1 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = menu_id1; sourceTree = "<group>"; };
-		4943D2391E4DB28800FA3F36 /* server_aom */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_aom; sourceTree = "<group>"; };
-		4943D23A1E4DB28800FA3F36 /* server_biglolly */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_biglolly; sourceTree = "<group>"; };
-		4943D23B1E4DB28800FA3F36 /* server_blackops */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_blackops; sourceTree = "<group>"; };
-		4943D23C1E4DB28800FA3F36 /* server_bshift */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_bshift; sourceTree = "<group>"; };
-		4943D23D1E4DB28800FA3F36 /* server_cstrike */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_cstrike; sourceTree = "<group>"; };
-		4943D23E1E4DB28800FA3F36 /* server_eftd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_eftd; sourceTree = "<group>"; };
-		4943D23F1E4DB28800FA3F36 /* server_gravgun */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_gravgun; sourceTree = "<group>"; };
-		4943D2401E4DB28800FA3F36 /* server_hunger */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_hunger; sourceTree = "<group>"; };
-		4943D2411E4DB28800FA3F36 /* server_id1 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_id1; sourceTree = "<group>"; };
-		4943D2421E4DB28800FA3F36 /* server_noffice */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_noffice; sourceTree = "<group>"; };
-		4943D2431E4DB28800FA3F36 /* server_poke646 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_poke646; sourceTree = "<group>"; };
-		4943D2441E4DB28800FA3F36 /* server_sohl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_sohl; sourceTree = "<group>"; };
-		4943D2451E4DB28800FA3F36 /* server_thegate */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_thegate; sourceTree = "<group>"; };
-		4943D2461E4DB28800FA3F36 /* server_tot */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_tot; sourceTree = "<group>"; };
-		4943D2471E4DB28800FA3F36 /* server_vendetta */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_vendetta; sourceTree = "<group>"; };
-		4943D2481E4DB28800FA3F36 /* server_visitors */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_visitors; sourceTree = "<group>"; };
-		4943D2491E4DB28800FA3F36 /* server_xenwar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = server_xenwar; sourceTree = "<group>"; };
 		495E1A191E13199A0022E4AA /* launchdialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = launchdialog.m; sourceTree = "<group>"; };
 		4981975B1E15858D004ED6F3 /* client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o"; path = client; sourceTree = "<group>"; };
 		4981975C1E15858D004ED6F3 /* menu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o"; path = menu; sourceTree = "<group>"; };
 		4981975D1E15858D004ED6F3 /* server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o"; path = server; sourceTree = "<group>"; };
 		498197651E158C0A004ED6F3 /* extras.pak */ = {isa = PBXFileReference; lastKnownFileType = file; path = extras.pak; sourceTree = "<group>"; };
-		498197671E161C20004ED6F3 /* client_cstrike */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o"; path = client_cstrike; sourceTree = "<group>"; };
-		498197681E161C20004ED6F3 /* menu_cstrike */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o"; path = menu_cstrike; sourceTree = "<group>"; };
 		498197701E17BB65004ED6F3 /* extras_cstrike.pak */ = {isa = PBXFileReference; lastKnownFileType = file; path = extras_cstrike.pak; sourceTree = "<group>"; };
-		498197721E17BEB6004ED6F3 /* server_cstrike */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o"; path = server_cstrike; sourceTree = "<group>"; };
 		498CCAAB1E155F1F00299D38 /* ftp_commands.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ftp_commands.plist; sourceTree = "<group>"; };
 		498CCAB01E155F5D00299D38 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		498CCAB11E155F5D00299D38 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
@@ -579,21 +501,16 @@
 				498CCAC41E15618F00299D38 /* SystemConfiguration.framework in Frameworks */,
 				FABA34D41D8B5E5600915323 /* AVFoundation.framework in Frameworks */,
 				FD1B48DD0E313255007AB34E /* libSDL2.a in Frameworks */,
-				FAE0E96A1BAF96A00098DFA4 /* GameController.framework in Frameworks */,
 				FA8B4BA31967070A00F8EB7C /* CoreMotion.framework in Frameworks */,
 				FDF0D7AB0E12D53800247964 /* CoreAudio.framework in Frameworks */,
-				4981976A1E161C20004ED6F3 /* menu_cstrike in Frameworks */,
 				FDF0D7AC0E12D53800247964 /* AudioToolbox.framework in Frameworks */,
 				4981975F1E15858D004ED6F3 /* menu in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				4981975E1E15858D004ED6F3 /* client in Frameworks */,
-				498197731E17BEB6004ED6F3 /* server_cstrike in Frameworks */,
-				498197601E15858D004ED6F3 /* server in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */,
 				FDB96ED40DEFC9C700FAF19F /* OpenGLES.framework in Frameworks */,
 				FDB96EE00DEFC9DC00FAF19F /* QuartzCore.framework in Frameworks */,
-				498197691E161C20004ED6F3 /* client_cstrike in Frameworks */,
+				49C4D60720781DAB00855677 /* GameController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,40 +530,6 @@
 			children = (
 				4903182A1E8E9EEA00AA2AE2 /* identification.c */,
 				4903182B1E8E9EEA00AA2AE2 /* Sequence.c */,
-				4943D2281E4DB28700FA3F36 /* client_aom */,
-				4943D2291E4DB28700FA3F36 /* client_biglolly */,
-				4943D22A1E4DB28700FA3F36 /* client_blackops */,
-				4943D22B1E4DB28700FA3F36 /* client_bshift */,
-				4943D22C1E4DB28700FA3F36 /* client_cstrike */,
-				4943D22D1E4DB28700FA3F36 /* client_eftd */,
-				4943D22E1E4DB28800FA3F36 /* client_hunger */,
-				4943D22F1E4DB28800FA3F36 /* client_id1 */,
-				4943D2301E4DB28800FA3F36 /* client_noffice */,
-				4943D2311E4DB28800FA3F36 /* client_poke646 */,
-				4943D2321E4DB28800FA3F36 /* client_sohl */,
-				4943D2331E4DB28800FA3F36 /* client_thegate */,
-				4943D2341E4DB28800FA3F36 /* client_tot */,
-				4943D2351E4DB28800FA3F36 /* client_vendetta */,
-				4943D2361E4DB28800FA3F36 /* client_visitors */,
-				4943D2371E4DB28800FA3F36 /* client_xenwar */,
-				4943D2381E4DB28800FA3F36 /* menu_id1 */,
-				4943D2391E4DB28800FA3F36 /* server_aom */,
-				4943D23A1E4DB28800FA3F36 /* server_biglolly */,
-				4943D23B1E4DB28800FA3F36 /* server_blackops */,
-				4943D23C1E4DB28800FA3F36 /* server_bshift */,
-				4943D23D1E4DB28800FA3F36 /* server_cstrike */,
-				4943D23E1E4DB28800FA3F36 /* server_eftd */,
-				4943D23F1E4DB28800FA3F36 /* server_gravgun */,
-				4943D2401E4DB28800FA3F36 /* server_hunger */,
-				4943D2411E4DB28800FA3F36 /* server_id1 */,
-				4943D2421E4DB28800FA3F36 /* server_noffice */,
-				4943D2431E4DB28800FA3F36 /* server_poke646 */,
-				4943D2441E4DB28800FA3F36 /* server_sohl */,
-				4943D2451E4DB28800FA3F36 /* server_thegate */,
-				4943D2461E4DB28800FA3F36 /* server_tot */,
-				4943D2471E4DB28800FA3F36 /* server_vendetta */,
-				4943D2481E4DB28800FA3F36 /* server_visitors */,
-				4943D2491E4DB28800FA3F36 /* server_xenwar */,
 				49CF01B81E100AEF00CF7A9B /* eglwrap.cpp */,
 				49CF01B91E100AF000CF7A9B /* nanogl.cpp */,
 				49CF01BA1E100AF000CF7A9B /* nanoWrap.cpp */,
@@ -665,10 +548,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				498197721E17BEB6004ED6F3 /* server_cstrike */,
 				498197701E17BB65004ED6F3 /* extras_cstrike.pak */,
-				498197671E161C20004ED6F3 /* client_cstrike */,
-				498197681E161C20004ED6F3 /* menu_cstrike */,
 				498197651E158C0A004ED6F3 /* extras.pak */,
 				4981975B1E15858D004ED6F3 /* client */,
 				4981975C1E15858D004ED6F3 /* menu */,
@@ -743,7 +623,6 @@
 				4943336A1E10211F00F9543C /* screenfade.h */,
 				4943336B1E10211F00F9543C /* studio_event.h */,
 				4943336C1E10211F00F9543C /* triangleapi.h */,
-				4943336D1E10211F00F9543C /* types.h */,
 				4943336E1E10211F00F9543C /* usercmd.h */,
 				4943336F1E10211F00F9543C /* wadfile.h */,
 				494333701E10211F00F9543C /* weaponinfo.h */,
@@ -1170,42 +1049,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4943D24A1E4DB28800FA3F36 /* client_aom in Resources */,
-				4943D24B1E4DB28800FA3F36 /* client_biglolly in Resources */,
-				4943D24C1E4DB28800FA3F36 /* client_blackops in Resources */,
-				4943D24D1E4DB28800FA3F36 /* client_bshift in Resources */,
-				4981976B1E161C55004ED6F3 /* client_cstrike in Resources */,
-				4943D24E1E4DB28800FA3F36 /* client_eftd in Resources */,
-				4943D24F1E4DB28800FA3F36 /* client_hunger in Resources */,
-				4943D2501E4DB28800FA3F36 /* client_id1 in Resources */,
-				4943D2511E4DB28800FA3F36 /* client_noffice in Resources */,
-				4943D2521E4DB28800FA3F36 /* client_poke646 in Resources */,
-				4943D2531E4DB28800FA3F36 /* client_sohl in Resources */,
-				4943D2541E4DB28800FA3F36 /* client_thegate in Resources */,
-				4943D2551E4DB28800FA3F36 /* client_tot in Resources */,
-				4943D2561E4DB28800FA3F36 /* client_vendetta in Resources */,
-				4943D2571E4DB28800FA3F36 /* client_visitors in Resources */,
-				4943D2581E4DB28800FA3F36 /* client_xenwar in Resources */,
-				4943D2591E4DB28800FA3F36 /* menu_id1 in Resources */,
-				4943D25A1E4DB28800FA3F36 /* server_aom in Resources */,
-				4943D25B1E4DB28800FA3F36 /* server_biglolly in Resources */,
-				4943D25C1E4DB28800FA3F36 /* server_blackops in Resources */,
-				4943D25D1E4DB28800FA3F36 /* server_bshift in Resources */,
-				498197751E17C4D6004ED6F3 /* server_cstrike in Resources */,
-				4943D25E1E4DB28800FA3F36 /* server_eftd in Resources */,
-				4943D25F1E4DB28800FA3F36 /* server_gravgun in Resources */,
-				4943D2601E4DB28800FA3F36 /* server_hunger in Resources */,
-				4943D2611E4DB28800FA3F36 /* server_id1 in Resources */,
-				4943D2621E4DB28800FA3F36 /* server_noffice in Resources */,
-				4943D2631E4DB28800FA3F36 /* server_poke646 in Resources */,
-				4943D2641E4DB28800FA3F36 /* server_sohl in Resources */,
-				4943D2651E4DB28800FA3F36 /* server_thegate in Resources */,
-				4943D2661E4DB28800FA3F36 /* server_tot in Resources */,
-				4943D2671E4DB28800FA3F36 /* server_vendetta in Resources */,
-				4943D2681E4DB28800FA3F36 /* server_visitors in Resources */,
-				4943D2691E4DB28800FA3F36 /* server_xenwar in Resources */,
 				498197711E17BB65004ED6F3 /* extras_cstrike.pak in Resources */,
-				4981976C1E161C55004ED6F3 /* menu_cstrike in Resources */,
 				498197631E15881C004ED6F3 /* menu in Resources */,
 				498197641E15881C004ED6F3 /* server in Resources */,
 				498197621E15880F004ED6F3 /* client in Resources */,
