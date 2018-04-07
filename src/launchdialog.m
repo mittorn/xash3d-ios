@@ -31,10 +31,6 @@
 }
 @end
 
-void runEvents()
-{
-	
-}
 
 extern int g_iArgc;
 extern char **g_pszArgv;
@@ -115,12 +111,46 @@ typedef struct settings_s
 	char suffix[32];
 	unsigned int ftpserver;
 } settings_t;
+@interface ButtonHandler :NSObject
+@property (nonatomic, assign) int *button1;
+@end
+@implementation ButtonHandler
+
+
+-(void) buttonClicked:(UIButton*)sender
+{
+	*_button1 = 0;
+}
+@end
+void IOS_PrepareView()
+{
+	ButtonHandler *handler = [[ButtonHandler alloc] init];
+	UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	UIViewController *controller = [[UIViewController alloc] init];
+	[[controller view] setBackgroundColor:[UIColor grayColor]];
+	[window setRootViewController:controller];
+	[window makeKeyAndVisible];
+#if 0
+	UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(10, 10, 100, 20)];
+	int button1 = -1;
+	handler.button1 = &button1;
+
+	[button addTarget:handler action:@selector(buttonClicked:) forControlEvents:UIControlEventValueChanged];
+	@autoreleasepool {
+		while( button1 == -1 ) {
+			[[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
+		}
+	}
+	[[controller view] addSubview:button];
+#endif
+}
 
 void IOS_LaunchDialog( void )
 {
 	NSLog(@"System Version is %@",[[UIDevice currentDevice] systemVersion]);
 	NSString *ver = [[UIDevice currentDevice] systemVersion];
 	g_iOSVer = [ver floatValue];
+	IOS_PrepareView();
 	if( g_iOSVer >= 7.0 )
 	{
 	int button = -1, bExit, bStart;
@@ -238,7 +268,7 @@ void IOS_LaunchDialog( void )
 	NSArray *argv = [ args.text componentsSeparatedByString:@" " ];
 	
 	int count = [argv count];
-	char *arg1 = g_pszArgv[0];
+	char *arg1 = "arg1";
 	g_pszArgv = calloc( count + 2, sizeof( char* ) );
 	int i;
 	g_pszArgv[0] = arg1;
@@ -276,14 +306,26 @@ void IOS_LaunchDialog( void )
 		FILE *f = fopen(cmdlinefile,"rb");
 		if( f )
 		{
-			static char args2[32][64];
-			g_iArgc = 1;
-			while(fscanf(f,"%64s",args2[g_iArgc-1]))
+			static char args[1024];
+			static char lib[32];
+			fgets(args, 1024,f);
+			fgets(lib, 32, f);
+			fclose(f);
+			args[1023] = 0;
+			NSArray *argv = [ @(args) componentsSeparatedByString:@" " ];
+			
+			int count = [argv count];
+			char *arg1 = "xash";
+			g_pszArgv = calloc( count + 2, sizeof( char* ) );
+			int i;
+			g_pszArgv[0] = arg1;
+			for( i = 0; i<count; i++ )
 			{
-				args[g_iArgc] = args2[g_iArgc-1];
-				g_iArgc++;
+				g_pszArgv[i + 1] = strdup( [argv[i] UTF8String] );
 			}
-
+			g_iArgc = count + 1;
+			g_pszArgv[count + 1] = 0;
+			g_szLibrarySuffix = lib;
 		}
 	}
 }

@@ -168,7 +168,8 @@
 		49D57E67207803E90042950A /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D57E59207803E90042950A /* parse.c */; };
 		49D57E68207803E90042950A /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D57E5A207803E90042950A /* reader.c */; };
 		49D57E69207803E90042950A /* synth.c in Sources */ = {isa = PBXBuildFile; fileRef = 49D57E5D207803E90042950A /* synth.c */; };
-		FA86C0371D9765BB009CB637 /* iOS Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA86C0361D9765BA009CB637 /* iOS Launch Screen.storyboard */; };
+		49E07A6520793D2B00BFB105 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E07A6420793D2B00BFB105 /* Images.xcassets */; };
+		49E07A68207950E900BFB105 /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 499F35212079299E00998405 /* Launch.xib */; };
 		FA8B4BA31967070A00F8EB7C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8B4BA21967070A00F8EB7C /* CoreMotion.framework */; };
 		FABA34D41D8B5E5600915323 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA34D31D8B5E5600915323 /* AVFoundation.framework */; };
 		FD1B48DD0E313255007AB34E /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1B489E0E313154007AB34E /* libSDL2.a */; };
@@ -281,6 +282,7 @@
 		498CCAC01E155F6D00299D38 /* NetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkController.m; sourceTree = "<group>"; };
 		498CCAC31E15618F00299D38 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		498CCAC51E1561AD00299D38 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		499F35212079299E00998405 /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launch.xib; sourceTree = "<group>"; };
 		49BD69CA1E12FAC8004904A9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		49BD69CB1E12FAC8004904A9 /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
 		49BD69CC1E12FAC8004904A9 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
@@ -477,8 +479,8 @@
 		49D57E5C207803E90042950A /* sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample.h; sourceTree = "<group>"; };
 		49D57E5D207803E90042950A /* synth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = synth.c; sourceTree = "<group>"; };
 		49D57E5E207803E90042950A /* synth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = synth.h; sourceTree = "<group>"; };
+		49E07A6420793D2B00BFB105 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "xash3d-ios/Images.xcassets"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA86C0361D9765BA009CB637 /* iOS Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "iOS Launch Screen.storyboard"; sourceTree = "<group>"; };
 		FA8B4BA21967070A00F8EB7C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		FABA34D31D8B5E5600915323 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FABA34D71D8B5E7700915323 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -533,7 +535,6 @@
 				49CF01B81E100AEF00CF7A9B /* eglwrap.cpp */,
 				49CF01B91E100AF000CF7A9B /* nanogl.cpp */,
 				49CF01BA1E100AF000CF7A9B /* nanoWrap.cpp */,
-				FA86C0361D9765BA009CB637 /* iOS Launch Screen.storyboard */,
 				FD1B48920E313154007AB34E /* SDL.xcodeproj */,
 				FD77A0040E26BC0500F39101 /* src */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -548,6 +549,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				49E07A6420793D2B00BFB105 /* Images.xcassets */,
 				498197701E17BB65004ED6F3 /* extras_cstrike.pak */,
 				498197651E158C0A004ED6F3 /* extras.pak */,
 				4981975B1E15858D004ED6F3 /* client */,
@@ -962,6 +964,7 @@
 				494333481E10211F00F9543C /* common */,
 				49CF00621E10063D00CF7A9B /* engine */,
 				495E1A191E13199A0022E4AA /* launchdialog.m */,
+				499F35212079299E00998405 /* Launch.xib */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -1049,15 +1052,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E07A68207950E900BFB105 /* Launch.xib in Resources */,
 				498197711E17BB65004ED6F3 /* extras_cstrike.pak in Resources */,
 				498197631E15881C004ED6F3 /* menu in Resources */,
 				498197641E15881C004ED6F3 /* server in Resources */,
 				498197621E15880F004ED6F3 /* client in Resources */,
 				498197661E158C0A004ED6F3 /* extras.pak in Resources */,
-				FA86C0371D9765BB009CB637 /* iOS Launch Screen.storyboard in Resources */,
 				FD925B1B0E0F276600E92347 /* Icon.png in Resources */,
 				49D57E65207803E90042950A /* libmpg.dsp in Resources */,
 				49BD69CD1E12FAC8004904A9 /* Default@2x.png in Resources */,
+				49E07A6520793D2B00BFB105 /* Images.xcassets in Resources */,
 				498CCAAC1E155F1F00299D38 /* ftp_commands.plist in Resources */,
 				FD787AA20E22A5CC003E8E36 /* Default.png in Resources */,
 				49BD69CE1E12FAC8004904A9 /* Default@2x~ipad.png in Resources */,
@@ -1233,6 +1237,7 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 227G772SBH;
 				GCC_OPTIMIZATION_LEVEL = fast;
@@ -1253,7 +1258,26 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				NEW_SETTING = "";
 				OTHER_CFLAGS = (
+					"-DXASH_SDL",
+					"-DXASH_NANOGL",
+					"-DXASH_GLES",
+					"-DXASH_FORCEINLINE",
+					"-DXASH_SDLMAIN",
+					"-DSINGLE_BINARY",
+					"-D__MULTITEXTURE_SUPPORT__",
+				);
+				"OTHER_CFLAGS[arch=arm64]" = (
+					"-DXASH_SDL",
+					"-DXASH_NANOGL",
+					"-DXASH_GLES",
+					"-DXASH_FORCEINLINE",
+					"-DXASH_SDLMAIN",
+					"-DSINGLE_BINARY",
+					"-D__MULTITEXTURE_SUPPORT__",
+				);
+				"OTHER_CFLAGS[arch=armv7]" = (
 					"-DXASH_SDL",
 					"-DXASH_NANOGL",
 					"-DXASH_GLES",
@@ -1273,13 +1297,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "su.FWGS.xash3d-ios";
 				PRODUCT_NAME = "xash3d-ios";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = armv7;
+				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Debug;
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 227G772SBH;
 				GCC_OPTIMIZATION_LEVEL = fast;
@@ -1291,6 +1316,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DXASH_SDL",

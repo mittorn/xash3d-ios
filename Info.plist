@@ -22,14 +22,18 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>NSMainNibFile~ipad</key>
+	<string>Launch</string>
 	<key>UIFileSharingEnabled</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
-	<string>iOS Launch Screen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>iOS Launch Screen</string>
-	<key>UIMainStoryboardFile~ipad</key>
-	<string>iOS Launch Screen</string>
+	<string>Launch</string>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
