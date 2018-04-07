@@ -16,6 +16,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "FtpServer.h"
+#include <sys/stat.h>
 
 @interface XashPromptAlertViewDelegate : NSObject <UIAlertViewDelegate>
 
@@ -38,10 +39,13 @@ void runEvents()
 extern int g_iArgc;
 extern char **g_pszArgv;
 char *g_szLibrarySuffix;
+float g_iOSVer;
 
 
 const char *IOS_GetDocsDir()
 {
+	if( g_iOSVer >= 8.0 )
+	{
 	static const char *dir = NULL;
 	
 	if( dir )
@@ -49,11 +53,26 @@ const char *IOS_GetDocsDir()
 	
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *documentsDirctory = [paths objectAtIndex:0];
-	[[NSFileManager defaultManager] createDirectoryAtPath:documentsDirctory withIntermediateDirectories:NO attributes:nil error:nil];
+	[[NSFileManager defaultManager] createDirectoryAtPath:documentsDirctory withIntermediateDirectories:YES attributes:nil error:nil];
 	
 	dir = [documentsDirctory fileSystemRepresentation];
+	NSLog(@"IOS_GetDocsDir: %s", dir);
 	
 	return dir;
+	}
+	else
+	{
+		static char dir[1024];
+		NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+		NSString *basePath = paths.firstObject;
+		[[NSFileManager defaultManager] createDirectoryAtPath:basePath withIntermediateDirectories:YES attributes:nil error:nil];
+		strcpy(dir,[basePath UTF8String]);
+		mkdir(dir,777);
+
+		NSLog(@"IOS_GetDocsDir: %s", dir);
+
+		return dir;
+	}
 }
 
 UIBackgroundTaskIdentifier task;
@@ -101,8 +120,8 @@ void IOS_LaunchDialog( void )
 {
 	NSLog(@"System Version is %@",[[UIDevice currentDevice] systemVersion]);
 	NSString *ver = [[UIDevice currentDevice] systemVersion];
-	float ver_float = [ver floatValue];
-	if( ver_float >= 7.0 )
+	g_iOSVer = [ver floatValue];
+	if( g_iOSVer >= 7.0 )
 	{
 	int button = -1, bExit, bStart;
 	UIAlertView * alert = [[UIAlertView alloc] init];
@@ -280,5 +299,5 @@ char *IOS_GetUDID( void )
 
 void IOS_Log(const char *text)
 {
-	NSLog(@"Xash: %@\n	", [NSString stringWithUTF8String:text]);
+	NSLog(@"Xash: %@", [NSString stringWithUTF8String:text]);
 }
