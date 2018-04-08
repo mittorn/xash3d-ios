@@ -440,7 +440,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "su.FWGS.xash3d-ios";
 				PRODUCT_NAME = "xash3d-ios";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "armv7 arm64";
+				VALID_ARCHS = "armv7 arm64 i386 x86_64";
 			};
 			name = Debug;
 		};
