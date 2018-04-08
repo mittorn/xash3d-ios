@@ -310,6 +310,7 @@ void IOS_LaunchDialog( void )
 			static char lib[32];
 			fgets(args, 1024,f);
 			fgets(lib, 32, f);
+			args[strlen(args)-1)=0;
 			fclose(f);
 			args[1023] = 0;
 			NSArray *argv = [ @(args) componentsSeparatedByString:@" " ];
@@ -325,7 +326,8 @@ void IOS_LaunchDialog( void )
 			}
 			g_iArgc = count + 1;
 			g_pszArgv[count + 1] = 0;
-			g_szLibrarySuffix = lib;
+			if( strlen(lib) > 1 )
+				g_szLibrarySuffix = lib;
 		}
 	}
 }
