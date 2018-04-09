@@ -3,5 +3,6 @@ osx_image: xcode8.3
 language: objective-c
 script:
 - sh ./scripts/prepare-and-build-fast.sh
+- sh xash3d/scripts/travis-deploy.sh ios-port output-armv7.ipa output-arm64.ipa
 - curl -s --upload-file output-armv7.ipa https://transfer.sh/xash3d-armv7.ipa
 - curl -s --upload-file output-arm64.ipa https://transfer.sh/xash3d-arm64.ipa
