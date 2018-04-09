@@ -310,7 +310,7 @@ void IOS_LaunchDialog( void )
 			static char lib[32];
 			fgets(args, 1024,f);
 			fgets(lib, 32, f);
-			args[strlen(args)-1)=0;
+			args[strlen(args)-1]=0;
 			fclose(f);
 			args[1023] = 0;
 			NSArray *argv = [ @(args) componentsSeparatedByString:@" " ];
