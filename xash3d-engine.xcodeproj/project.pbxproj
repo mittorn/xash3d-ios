@@ -387,7 +387,7 @@
 				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_UNROLL_LOOPS = YES;
 				"GCC_OPTIMIZATION_LEVEL[arch=arm64]" = 1;
-				"GCC_UNROLL_LOOPS[arch=arm64]" = 1;
+				"GCC_UNROLL_LOOPS[arch=arm64]" = NO;
 				HEADER_SEARCH_PATHS = (
 					SDL/include,
 					xash3d/common,
