@@ -411,6 +411,7 @@
 					"-DXASH_FORCEINLINE",
 					"-DXASH_SDLMAIN",
 					"-DSINGLE_BINARY",
+					"-DXASH_RELEASE",
 					"-D__MULTITEXTURE_SUPPORT__",
 				);
 				"OTHER_CFLAGS[arch=arm64]" = (
